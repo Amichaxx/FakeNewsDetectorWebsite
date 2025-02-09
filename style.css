@@ -1,6 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -12,18 +11,34 @@ body {
     padding: 20px;
     font-size: 24px;
     font-weight: bold;
+    text-align: center;
 }
 
 .container {
     margin-top: 20px;
+    padding-left: 20px; 
+    text-align: left; 
 }
 
 .textbox {
     width: 80%;
-    max-width: 400px;
+    max-width: 600px;
+    min-height: 50px;
     padding: 10px;
     font-size: 16px;
     border: 2px solid #ccc;
     border-radius: 5px;
     outline: none;
+    resize: vertical;
+    overflow-y: hidden;
+    display: block;
 }
+
+.button1 {
+    margin-top: 10px;
+    padding-left: 20px; 
+    text-align: left;
+}
+
+
+
