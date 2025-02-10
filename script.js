@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    // Attach the function to the button
+    // Attaches the function to the button
     let verifyButton = document.querySelector(".button");
     if (verifyButton) {
         verifyButton.addEventListener("click", showResults);
