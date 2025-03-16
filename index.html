@@ -10,11 +10,16 @@
     <div class="banner">
         <h1>⚠️ Fake News Buster ⚠️</h1>
     </div>
-    <div class="container">
-        <textarea class="textbox" placeholder="Enter text to verify..."></textarea>
+    <div class="main-container">
+        <div class="left">
+            <textarea class="textbox" placeholder="Enter text to verify..."></textarea>
+            <button class="button" id="verifyButton">Verify</button>
+        </div>
+        <div class="right" id="results-container" style="display: none;">
+            <h2>Analysis Results</h2>
+            <pre id="results"></pre>
+        </div>
     </div>
-    <div class="button1">
-        <button class="button" onclick="window.location.href='results.html'">Verify</button>
-    </div>    
+    <script src="script.js"></script>
 </body>
 </html>

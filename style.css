@@ -66,3 +66,30 @@ body {
     display: none;
 }
 
+.claim {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.claim p {
+    margin: 5px 0;
+}
+
+.claim a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.claim a:hover {
+    text-decoration: underline;
+}
+
+.overall-result {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
